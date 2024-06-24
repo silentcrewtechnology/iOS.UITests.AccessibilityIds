@@ -14,6 +14,5 @@ open class StocksAccessibilityIDs {
         public static let activityIndicator = "stocks_list_activity_indicator"
         
         public static let labelCell = "label_cell_"
-        public static let labelCellLabelView = "label_cell_label_view"
     }
 }
