@@ -18,5 +18,8 @@ open class CurrenciesAccessibilityIDs {
         
         public static let infoTextRow = "info_text_row"
         public static let infoTextRowLabel = "info_text_row_label"
+        
+        public static let infoAlert = "quotation_list_info_alert"
+        public static let infoAlertOkButton = "quotation_list_info_alert_ok_button"
     }
 }
