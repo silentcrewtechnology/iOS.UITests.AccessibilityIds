@@ -5,16 +5,14 @@
 //  Created by user on 21.06.2024.
 //
 
-import Foundation
-
-open class ReusableAccessibilityIDs {
+public class ReusableAccessibilityIDs {
     /// Экран запуска
-    open class LaunchScreen {
+    public class LaunchScreen {
         public static let id = "launch_screen"
     }
     
     /// Главный экран
-    open class StocksElements {
+    public class StocksElements {
         public static let stockCell = "stock_cell_"
         public static let stockCellLogoImage = "stock_cell_logo_image"
         public static let stockCellNameLabel = "stock_cell_name_label"
@@ -26,5 +24,10 @@ open class ReusableAccessibilityIDs {
         public static let stockUpdateCellInsetsView = "stock_update_date_cell_insets_view"
         public static let stockUpdateCellDateIcon = "stock_update_date_cell_date_icon"
         public static let stockUpdateCellDateLabel = "stock_update_date_cell_date_label"
+    }
+    
+    ///  Алерт
+    public class AlertService {
+        public static let subview = "alert_subview"
     }
 }
