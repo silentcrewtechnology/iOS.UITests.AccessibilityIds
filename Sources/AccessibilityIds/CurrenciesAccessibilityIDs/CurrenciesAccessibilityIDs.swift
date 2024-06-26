@@ -5,11 +5,9 @@
 //  Created by Омельченко Юлия on 21.06.2024.
 //
 
-import Foundation
-
-open class CurrenciesAccessibilityIDs {
+public class CurrenciesAccessibilityIDs {
     /// Главный экран
-    open class QuotationListScreen {
+    public class QuotationListScreen {
         public static let id = "quotation_list_table_view"
         public static let activityIndicator = "quotation_list_activity_indicator"
         
