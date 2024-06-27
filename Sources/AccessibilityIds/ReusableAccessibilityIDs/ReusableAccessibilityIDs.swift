@@ -18,6 +18,10 @@ public class ReusableAccessibilityIDs {
         public static let stockCellNameLabel = "stock_cell_name_label"
         public static let stockCellClasscodeLabel = "stock_cell_classcode_label"
         public static let stockCellPriceLabel = "stock_cell_price_label"
+        
+        @available(*, deprecated, message: "Use priceDynamicsLabelGreen / priceDynamicsLabelRed instead")
+        public static let stockCellPriceDynamicsLabel = "stock_cell_price_dynamics_label"
+        
         public static let priceDynamicsLabelGreen = "stock_cell_price_dynamics_label_green"
         public static let priceDynamicsLabelRed = "stock_cell_price_dynamics_label_red"
         
