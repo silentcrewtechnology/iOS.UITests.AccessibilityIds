@@ -29,6 +29,14 @@ public class ReusableAccessibilityIDs {
         public static let stockUpdateCellInsetsView = "stock_update_date_cell_insets_view"
         public static let stockUpdateCellDateIcon = "stock_update_date_cell_date_icon"
         public static let stockUpdateCellDateLabel = "stock_update_date_cell_date_label"
+        
+        public static let stockFilterCell = "stock_filter_cell"
+        public static let stockFilterFirstButtonSelected = "stock_filter_first_button_selected"
+        public static let stockFilterFirstButtonUnselected = "stock_filter_first_button_unselected"
+        public static let stockFilterSecondButtonSelected = "stock_filter_second_button_selected"
+        public static let stockFilterSecondButtonUnselected = "stock_filter_second_button_unselected"
+        public static let stockFilterThirdButtonSelected = "stock_filter_third_button_selected"
+        public static let stockFilterThirdButtonUnselected = "stock_filter_third_button_unselected"
     }
     
     ///  Алерт
