@@ -43,4 +43,19 @@ public class ReusableAccessibilityIDs {
     public class AlertService {
         public static let subview = "alert_subview"
     }
+    
+    /// Экран запуска
+    public class AuthService {
+        public static let loginPasswordButton = "login_password_button"
+        public static let loginCachedButton = "login_cached_button"
+        
+        public static let loginButton = "login_button"
+        
+        public static let otpTextField = "otp_field"
+        public static let confirmOtpButton = "confirm_otp_button"
+        
+        public static let pinVC = "pin_view_controller"
+        public static let pinTextField = "pin_field"
+        public static let createPinButton = "create_pin_button"
+    }
 }
