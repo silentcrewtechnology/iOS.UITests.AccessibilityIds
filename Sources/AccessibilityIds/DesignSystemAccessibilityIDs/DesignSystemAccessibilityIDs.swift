@@ -37,4 +37,19 @@ public class DesignSystemAccessibilityIDs {
         public static let id = "button_view"
         public static let label = "button_label"
     }
+    
+    public class TitleView {
+        public static let id = "title_view"
+        public static let label = "title_view_label"
+    }
+    
+    public class InputOTPItemView {
+        public static let id = "input_otp_item_view_"
+        public static let label = "input_otp_item_view_label"
+    }
+    
+    public class InputOTPView {
+        public static let id = "input_otp_view"
+        public static let itemsStack = "input_otp_items_stack"
+    }
 }

@@ -10,4 +10,11 @@ public class AuthAccessibilityIDs {
     public class SegmentsScreen {
         public static let id = "auth_segments_screen_table_view"
     }
+    
+    /// Экран ввода смс кода
+    public class EnterCodeFromSmsScreen {
+        public static let id = "auth_enter_sms_code_screen_table_view"
+        public static let subtitleView = "auth_enter_sms_code_subtitle_view"
+        public static let subtitleLabel = "auth_enter_sms_code_subtitle_label"
+    }
 }
