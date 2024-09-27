@@ -17,4 +17,10 @@ public class AuthAccessibilityIDs {
         public static let subtitleView = "auth_enter_sms_code_subtitle_view"
         public static let subtitleLabel = "auth_enter_sms_code_subtitle_label"
     }
+    
+    /// Экран создания пин-кода
+    public class CreatePinScreen {
+        public static let id = "auth_create_pin_screen_table_view"
+        public static let title = "auth_create_pin_title"
+    }
 }

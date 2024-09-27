@@ -52,4 +52,34 @@ public class DesignSystemAccessibilityIDs {
         public static let id = "input_otp_view"
         public static let itemsStack = "input_otp_items_stack"
     }
+    
+    public class InputPinItemView {
+        public static let id = "input_pin_item_view_"
+    }
+
+    public class InputPinView {
+        public static let id = "input_pin_view"
+        public static let itemsStack = "input_pin_items_stack"
+    }
+
+    public class KeyboardPinView {
+        public static let id = "keyboard_pin_view"
+        public static let vStack = "keyboard_pin_stack"
+        public static let firstRowStack = "keyboard_pin_first_row_stack"
+        public static let secondRowStack = "keyboard_pin_second_row_stack"
+        public static let thirdRowStack = "keyboard_pin_third_row_stack"
+        public static let fourthRowStack = "keyboard_pin_fourth_row_stack"
+        public static let wrapper = "keyboard_pin_wrapper"
+        public static let key = "keyboard_pin_key_"
+    }
+    
+    public class KeyPinView {
+        public static let id = "key_pin_view_"
+        
+    }
+    
+    public class KeyPinBottomRightView {
+        public static let id = "key_pin_bottom_right_view"
+        public static let image = "key_pin_bottom_right_image"
+    }
 }
