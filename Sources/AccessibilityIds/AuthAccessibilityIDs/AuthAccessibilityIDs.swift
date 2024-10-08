@@ -9,6 +9,7 @@ public class AuthAccessibilityIDs {
     /// Экран выбора способа входа по карте/счету или логину
     public class SegmentsScreen {
         public static let id = "auth_segments_screen_table_view"
+        public static let alert = "auth_segments_screen_alert"
     }
     
     /// Экран ввода смс кода
@@ -22,5 +23,10 @@ public class AuthAccessibilityIDs {
     public class CreatePinScreen {
         public static let id = "auth_create_pin_screen_table_view"
         public static let title = "auth_create_pin_title"
+    }
+    
+    /// Экран ввода пин-кода
+    public class EnterPinScreen {
+        public static let id = "auth_enter_pin_screen_table_view"
     }
 }
