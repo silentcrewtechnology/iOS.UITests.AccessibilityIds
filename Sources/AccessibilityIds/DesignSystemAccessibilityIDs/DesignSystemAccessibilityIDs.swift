@@ -82,4 +82,11 @@ public class DesignSystemAccessibilityIDs {
         public static let id = "key_pin_bottom_right_view"
         public static let image = "key_pin_bottom_right_image"
     }
+    
+    public class OldHintView {
+        public static let id = "old_hint_view"
+        public static let hStack = "old_hint_stack"
+        public static let leftLabel = "old_hint_left_label"
+        public static let rightLabel = "old_hint_right_label"
+    }
 }
