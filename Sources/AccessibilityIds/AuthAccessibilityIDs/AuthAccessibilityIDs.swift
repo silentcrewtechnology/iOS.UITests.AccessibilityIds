@@ -23,6 +23,7 @@ public class AuthAccessibilityIDs {
     public class CreatePinScreen {
         public static let id = "auth_create_pin_screen_table_view"
         public static let title = "auth_create_pin_title"
+        public static let alert = "auth_create_pin_screen_alert"
     }
     
     /// Экран ввода пин-кода
