@@ -6,6 +6,21 @@
 //
 
 public class DesignSystemAccessibilityIDs {
+    public class CardView {
+        public static let id = "card_view"
+        public static let backgroundImageView = "card_view_background_image"
+        public static let paymentSystemImageView = "card_view_payment_system_image"
+        public static let centerImageView = "card_view_center_image"
+        public static let cardNumberLabel = "card_view_card_number_label"
+        public static let bandView = "card_view_band_view"
+        public static let containerView = "card_view_container_view"
+    }
+    
+    public class CheckboxView {
+        public static let id = "checkbox_view"
+        public static let checkView = "checkbox_view_check_view"
+    }
+    
     public class LabelView {
         public static let id = "label_view"
         public static let labelView = "label_view_label_view"
@@ -33,14 +48,30 @@ public class DesignSystemAccessibilityIDs {
         public static let textFieldContainer = "input_view_text_field_container"
     }
     
+    public class ImageView {
+        public static let id = "image_view"
+        public static let imageView = "image_view_image_view"
+        public static let titleLabel = "image_view_title_label"
+    }
+    
     public class ButtonView {
         public static let id = "button_view"
         public static let label = "button_label"
     }
     
+    public class ButtonIconView {
+        public static let id = "button_icon_view"
+        public static let iconView = "button_icon_view_icon_view"
+    }
+    
     public class TitleView {
         public static let id = "title_view"
         public static let label = "title_view_label"
+    }
+    
+    public class ToggleView {
+        public static let id = "toggle_view"
+        public static let switchView = "toggle_view_switch_view"
     }
     
     public class InputOTPItemView {
@@ -88,5 +119,42 @@ public class DesignSystemAccessibilityIDs {
         public static let hStack = "old_hint_stack"
         public static let leftLabel = "old_hint_left_label"
         public static let rightLabel = "old_hint_right_label"
+    }
+    
+    public class RadioView {
+        public static let id = "radio_view"
+        public static let indicatorView = "radio_view_indicator_view"
+    }
+    
+    public class RowView {
+        public static let rowId = "rows_row_"
+        public static let rowCell = "row_cell_"
+        public static let rowCellContainer = "row_cell_container"
+        public static let verticalStack = "vertical_stack"
+        public static let verticalArrayStack = "vertical_array_stack"
+        public static let horizontalStack = "horizontal_stack"
+        public static let horizontalArrayStack = "horizontal_array_stack"
+        public static let horizontalScrollStack = "horizonta_scroll_stack"
+    }
+    
+    public class RowAtoms {
+        public static let title = "row_atoms_title"
+        public static let subtitle = "row_atoms_subtitle"
+        public static let index = "row_atoms_index"
+        public static let amountText = "row_atoms_amount_text"
+        public static let label = "row_atoms_label"
+        public static let image40 = "row_atoms_image40"
+        public static let icon24 = "row_atoms_icon24"
+        public static let icon20 = "row_atoms_icon20"
+        public static let card = "row_atoms_card" // Deprecated
+        public static let toggle = "row_atoms_toggle"
+        public static let checkbox = "row_atoms_checkbox"
+        public static let radio = "row_atoms_radio"
+        public static let button = "row_atoms_button"
+        public static let buttonIcon = "row_atoms_button_icon"
+        public static let titleView = "row_atoms_title_view"
+        public static let cardWithMaskedNumber = "row_atoms_card_with_masked_number"
+        public static let inputView = "row_atoms_input_view"
+        public static let view = "row_atoms_view"
     }
 }
