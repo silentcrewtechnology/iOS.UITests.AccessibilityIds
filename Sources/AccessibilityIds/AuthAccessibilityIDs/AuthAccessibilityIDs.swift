@@ -8,7 +8,8 @@
 public class AuthAccessibilityIDs {
     /// Экран выбора способа входа по карте/счету или логину
     public class SegmentsScreen {
-        public static let id = "auth_segments_screen_table_view"
+        public static let id = "auth_segments_screen"
+        public static let tableView = "auth_segments_screen_table_view"
         public static let alert = "auth_segments_screen_alert"
     }
     
