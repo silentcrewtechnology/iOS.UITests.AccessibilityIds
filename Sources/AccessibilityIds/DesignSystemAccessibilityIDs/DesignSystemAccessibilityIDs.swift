@@ -102,6 +102,7 @@ public class DesignSystemAccessibilityIDs {
         public static let fourthRowStack = "keyboard_pin_fourth_row_stack"
         public static let wrapper = "keyboard_pin_wrapper"
         public static let key = "keyboard_pin_key_"
+        public static let forgotPin = "keyboard_pin_forgot_pin"
     }
     
     public class KeyPinView {
