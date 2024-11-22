@@ -30,5 +30,9 @@ public class AuthAccessibilityIDs {
     /// Экран ввода пин-кода
     public class EnterPinScreen {
         public static let id = "auth_enter_pin_screen_table_view"
+        public static let alert = "auth_enter_pin_screen_alert"
+        public static let headerView = "auth_enter_pin_screen_header_view"
+        public static let dayLabel = "auth_enter_pin_screen_day_label"
+        public static let nameLabel = "auth_enter_pin_screen_name_label"
     }
 }
